@@ -1,4 +1,9 @@
 {
-  "kategori": [],
+  "kategori": [
+    {
+      "nama": "General",
+      "id": 1
+    }
+  ],
   "todo": []
 }

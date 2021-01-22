@@ -22,7 +22,7 @@ const Todo = (props) => {
   const base_url = 'http://10.0.2.2:8000/';
 
   //Render ulang jika ada perubahan data
-  useState(() => {
+  useEffect(() => {
     if (data) {
       setItem(data);
     }

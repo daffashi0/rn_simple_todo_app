@@ -19,7 +19,7 @@ const Kategori = (props) => {
   const base_url = 'http://10.0.2.2:8000/';
   const {navigation} = props;
 
-  useEffect(getKategori, []);
+  useEffect(() => getKategori(), []);
 
   //Delete Todo
   useEffect(() => {
